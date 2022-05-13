@@ -1,0 +1,14 @@
+uuid: af890a15-f0cf-41bd-88a9-d4b76ce22622
+langcode: en
+status: true
+dependencies: {  }
+id: small_box
+label: 'USPS Small Box'
+dimensions:
+  length: '8.75'
+  width: '6'
+  height: '1.75'
+  unit: in
+weight:
+  number: '2'
+  unit: oz

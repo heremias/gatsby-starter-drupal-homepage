@@ -1,0 +1,20 @@
+uuid: bf1a05f8-69b0-4999-b7fe-b44304943e51
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wingsuit
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: wingsuit_local_actions
+theme: wingsuit
+region: primary_menu
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

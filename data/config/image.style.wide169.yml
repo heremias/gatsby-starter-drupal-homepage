@@ -1,0 +1,18 @@
+uuid: 4c0c3f27-cb6e-446f-aefe-2d3c2f713603
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.wide
+  module:
+    - crop
+name: wide169
+label: Wide169
+effects:
+  3f88d6f6-8467-4855-a6ff-b14ba7f21435:
+    uuid: 3f88d6f6-8467-4855-a6ff-b14ba7f21435
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: wide
+      automatic_crop_provider: null

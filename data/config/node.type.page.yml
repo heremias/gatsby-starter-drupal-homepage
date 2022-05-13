@@ -1,18 +1,24 @@
-uuid: 431576d7-fb8e-403f-8a11-9d676af1042d
+uuid: 7d4b67ab-cc1d-49f6-b3e2-60876c44ad7c
 langcode: en
 status: true
 dependencies:
   module:
+    - gatsby
     - menu_ui
 third_party_settings:
   menu_ui:
     available_menus:
       - main
-    parent: "main:"
-name: Page
+    parent: 'main:'
+  gatsby:
+    preview: true
+    target: window
+_core:
+  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
+name: 'Basic page'
 type: page
-description: ""
-help: ""
+description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
+help: ''
 new_revision: false
 preview_mode: 1
-display_submitted: false
+display_submitted: true

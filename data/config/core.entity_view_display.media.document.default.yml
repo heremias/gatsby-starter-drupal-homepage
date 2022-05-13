@@ -1,4 +1,4 @@
-uuid: 72542fab-fe99-41f6-98ad-d209d32ebf64
+uuid: 0bba4218-37ae-4e6d-ba17-f7a084277dbc
 langcode: en
 status: true
 dependencies:
@@ -17,8 +17,8 @@ content:
   field_media_document:
     type: file_default
     label: visually_hidden
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
     weight: 1
     region: content
 hidden:

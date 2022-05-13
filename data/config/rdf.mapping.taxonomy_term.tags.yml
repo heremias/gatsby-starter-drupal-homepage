@@ -1,4 +1,4 @@
-uuid: a6265833-102d-42f0-9c87-fc90e2ca9375
+uuid: 4d4100f2-63ba-4c61-9a0e-167757eb5bc9
 langcode: en
 status: true
 dependencies:
@@ -12,11 +12,11 @@ id: taxonomy_term.tags
 targetEntityType: taxonomy_term
 bundle: tags
 types:
-  - "schema:Thing"
+  - 'schema:Thing'
 fieldMappings:
   name:
     properties:
-      - "schema:name"
+      - 'schema:name'
   description:
     properties:
-      - "schema:description"
+      - 'schema:description'

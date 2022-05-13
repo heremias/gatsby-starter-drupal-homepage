@@ -1,0 +1,91 @@
+uuid: 362fc8e2-cba3-4188-bb68-89ed98ad8d1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_media
+    - node.type.gallery
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          1b6c21c8-4a6d-4b7e-b32a-09398298871c:
+            uuid: 1b6c21c8-4a6d-4b7e-b32a-09398298871c
+            region: content
+            configuration:
+              id: 'extra_field_block:node:gallery:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          aa7aad46-ad0e-4a34-b274-0a78c4236beb:
+            uuid: aa7aad46-ad0e-4a34-b274-0a78c4236beb
+            region: content
+            configuration:
+              id: 'field_block:node:gallery:field_media'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          96adfe02-1cb5-4775-aa06-a4b741dc089c:
+            uuid: 96adfe02-1cb5-4775-aa06-a4b741dc089c
+            region: content
+            configuration:
+              id: 'field_block:node:gallery:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_media:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  gatsby_iframe_preview: true

@@ -1,0 +1,26 @@
+uuid: 08f23d1b-c8ec-4894-b6c0-91a3ead059ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - imagick
+name: test
+label: Annotate
+effects:
+  0d07f566-8f57-4ef0-8a1e-fe6c49219e96:
+    uuid: 0d07f566-8f57-4ef0-8a1e-fe6c49219e96
+    id: image_define_canvas
+    weight: 2
+    data:
+      HEX: '#ff00ff'
+      under: 1
+      exact_measurements: 1
+      exact:
+        width: '100'
+        height: '100'
+        anchor: center-center
+      relative:
+        leftdiff: '20'
+        rightdiff: '20'
+        topdiff: '20'
+        bottomdiff: '20'

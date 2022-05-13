@@ -1,0 +1,21 @@
+uuid: c03a6104-dd50-4eb4-bb31-804da48da60c
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - wingsuit
+id: wingsuit_cart_2
+theme: wingsuit
+region: primary_menu
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: visible
+  provider: commerce_cart
+  dropdown: true
+visibility: {  }

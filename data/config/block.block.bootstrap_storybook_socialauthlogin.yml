@@ -1,0 +1,25 @@
+uuid: fa518270-fe28-4216-8fd7-5275e1c94c2b
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_auth
+    - system
+  theme:
+    - bootstrap_storybook
+id: bootstrap_storybook_socialauthlogin
+theme: bootstrap_storybook
+region: content
+weight: -7
+provider: null
+plugin: social_auth_login
+settings:
+  id: social_auth_login
+  label: 'Social Auth Login'
+  label_display: '0'
+  provider: social_auth
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login

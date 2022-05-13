@@ -1,0 +1,7 @@
+uuid: 43807c24-13cd-4929-b1a1-587c9201b37b
+langcode: en
+status: true
+dependencies: {  }
+id: artist
+label: Artist
+weight: null

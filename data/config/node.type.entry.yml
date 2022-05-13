@@ -1,0 +1,18 @@
+uuid: bdcacd58-ec17-419e-8c89-2d91a335427a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - account
+    parent: 'account:user.page'
+name: Entry
+type: entry
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

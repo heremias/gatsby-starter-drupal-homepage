@@ -1,4 +1,4 @@
-uuid: b681f845-349e-4c64-8948-0ef5d13df5ed
+uuid: b00cc619-b861-41e6-975c-edc9466249dc
 langcode: en
 status: true
 dependencies:
@@ -20,6 +20,6 @@ module: file
 locked: false
 cardinality: 1
 translatable: true
-indexes: {}
+indexes: {  }
 persist_with_no_fields: false
 custom_storage: false

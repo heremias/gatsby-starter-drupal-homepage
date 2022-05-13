@@ -1,0 +1,22 @@
+uuid: f0e8ade3-7939-469d-9681-7490b1d9ce9c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrap_storybook
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: bootstrap_storybook_secondary_local_tasks
+theme: bootstrap_storybook
+region: navbar_branding
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

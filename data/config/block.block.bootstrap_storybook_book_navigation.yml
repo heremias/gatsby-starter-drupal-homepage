@@ -1,0 +1,28 @@
+uuid: 4579d394-6c60-48ac-a8ce-b41a70d3e932
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+    - system
+  theme:
+    - bootstrap_storybook
+_core:
+  default_config_hash: sGBJngnPd7XTlRRI8evMMvByzIOLR2SA-iWeh_TVkYQ
+id: bootstrap_storybook_book_navigation
+theme: bootstrap_storybook
+region: navbar_branding
+weight: -5
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  label_display: visible
+  provider: book
+  block_mode: 'book pages'
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

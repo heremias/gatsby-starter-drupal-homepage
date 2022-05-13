@@ -1,4 +1,4 @@
-uuid: 939f270e-6267-4373-a77d-42a71d8428d4
+uuid: 79788067-059b-446f-8d43-b02dfa15bd0d
 langcode: en
 status: true
 dependencies:
@@ -25,7 +25,7 @@ content:
       muted: false
       width: 640
       height: 480
-    third_party_settings: {}
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

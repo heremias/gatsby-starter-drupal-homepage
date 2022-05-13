@@ -1,4 +1,4 @@
-uuid: 922bb2ca-d451-41ef-bb1c-297a46fb8207
+uuid: 09b0ace4-9d96-407b-b6ce-13d32ee30174
 langcode: en
 status: true
 dependencies:
@@ -17,16 +17,16 @@ field_name: field_media_document
 entity_type: media
 bundle: document
 label: Document
-description: ""
+description: ''
 required: true
 translatable: true
-default_value: {}
-default_value_callback: ""
+default_value: {  }
+default_value_callback: ''
 settings:
-  handler: "default:file"
-  handler_settings: {}
-  file_directory: "[date:custom:Y]-[date:custom:m]"
-  file_extensions: "txt rtf doc docx ppt pptx xls xlsx pdf odf odg odp ods odt fodt fods fodp fodg key numbers pages"
-  max_filesize: ""
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt rtf doc docx ppt pptx xls xlsx pdf odf odg odp ods odt fodt fods fodp fodg key numbers pages'
+  max_filesize: ''
   description_field: false
 field_type: file

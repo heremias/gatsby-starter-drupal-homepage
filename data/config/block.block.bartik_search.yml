@@ -1,4 +1,4 @@
-uuid: 59ccae5c-7a4e-41b3-a590-cf9fea033abe
+uuid: 9819435a-b195-43c9-b75d-737ad35f67e6
 langcode: en
 status: true
 dependencies:
@@ -20,4 +20,4 @@ settings:
   label_display: visible
   provider: search
   page_id: node_search
-visibility: {}
+visibility: {  }

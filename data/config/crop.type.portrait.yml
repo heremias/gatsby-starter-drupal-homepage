@@ -1,0 +1,12 @@
+uuid: 9e8a3740-c0f5-4f52-8dd1-a34f4c2e4133
+langcode: en
+status: true
+dependencies: {  }
+label: Portrait
+id: portrait
+description: ''
+aspect_ratio: '4:5'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

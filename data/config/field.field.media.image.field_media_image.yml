@@ -1,4 +1,4 @@
-uuid: 559093ab-75f2-425f-ab14-57687100afad
+uuid: 9c3bcc65-6782-4bb0-a2cc-2ed55bcf4ba1
 langcode: en
 status: true
 dependencies:
@@ -17,27 +17,27 @@ field_name: field_media_image
 entity_type: media
 bundle: image
 label: Image
-description: ""
+description: ''
 required: true
 translatable: true
-default_value: {}
-default_value_callback: ""
+default_value: {  }
+default_value_callback: ''
 settings:
-  handler: "default:file"
-  handler_settings: {}
-  file_directory: "[date:custom:Y]-[date:custom:m]"
-  file_extensions: "png gif jpg jpeg"
-  max_filesize: ""
-  max_resolution: ""
-  min_resolution: ""
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
   alt_field: true
   alt_field_required: true
   title_field: false
   title_field_required: false
   default_image:
     uuid: null
-    alt: ""
-    title: ""
+    alt: ''
+    title: ''
     width: null
     height: null
 field_type: image

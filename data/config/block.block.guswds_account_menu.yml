@@ -1,0 +1,27 @@
+uuid: 2afa4e45-4405-4600-a86c-0d224293cdb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - guswds
+_core:
+  default_config_hash: mUr1iN3uZHkYIG5ZOSvYviVJf7oVhEPXhpGkHrqem1c
+id: guswds_account_menu
+theme: guswds
+region: secondary
+weight: -1
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

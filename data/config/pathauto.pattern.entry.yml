@@ -1,0 +1,22 @@
+uuid: b97a4982-2bdc-4c5f-8947-5193ef1acafc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: entry
+label: Entry
+type: 'canonical_entities:node'
+pattern: '/artist/[current-user:account-name]/[node:title]'
+selection_criteria:
+  c07c20d8-c244-49dd-973c-cbb923b92cdb:
+    id: node_type
+    negate: false
+    uuid: c07c20d8-c244-49dd-973c-cbb923b92cdb
+    context_mapping:
+      node: node
+    bundles:
+      entry: entry
+selection_logic: and
+weight: -5
+relationships: {  }

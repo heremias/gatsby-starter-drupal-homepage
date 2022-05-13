@@ -1,30 +1,41 @@
-uuid: 6075c48b-5347-491a-b4ed-e597af4b7df6
+uuid: 7a02881f-c9ec-4022-9a54-544d4e00f473
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - filter.format.gutenberg_editor
   module:
-    - comment
+    - aggregator
+    - commerce_checkout
+    - commerce_order
+    - commerce_product
     - contact
     - filter
     - media
+    - profile
     - search
     - shortcut
     - system
 _core:
   default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
 id: authenticated
-label: "Authenticated user"
+label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - "access comments"
-  - "access content"
-  - "access shortcuts"
-  - "access site-wide contact form"
-  - "post comments"
-  - "search content"
-  - "skip comment approval"
-  - "use text format basic_html"
-  - "view media"
+  - 'access checkout'
+  - 'access content'
+  - 'access news feeds'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'cancel account'
+  - 'change own username'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'use text format gutenberg_editor'
+  - 'view any profile'
+  - 'view commerce_product'
+  - 'view media'
+  - 'view own commerce_order'

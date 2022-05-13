@@ -1,4 +1,4 @@
-uuid: 0453f590-c37d-4092-b0fe-911b8948b490
+uuid: 374ab2ec-c415-4296-9be8-7f2ac1406e50
 langcode: en
 status: true
 dependencies:
@@ -13,39 +13,45 @@ editor: ckeditor
 settings:
   toolbar:
     rows:
-      - - name: Formatting
+      -
+        -
+          name: Formatting
           items:
             - Bold
             - Italic
-        - name: Linking
+        -
+          name: Linking
           items:
             - DrupalLink
             - DrupalUnlink
-        - name: Lists
+        -
+          name: Lists
           items:
             - BulletedList
             - NumberedList
-        - name: Media
+        -
+          name: Media
           items:
             - Blockquote
-            - DrupalMediaLibrary
             - DrupalImage
-        - name: "Block Formatting"
+        -
+          name: 'Block Formatting'
           items:
             - Format
-        - name: Tools
+        -
+          name: Tools
           items:
             - Source
   plugins:
-    language:
-      language_list: un
     stylescombo:
-      styles: ""
+      styles: ''
+    N1EDEco:
+      enableN1EDEcoSystem: 'false'
 image_upload:
   status: true
   scheme: public
   directory: inline-images
-  max_size: ""
+  max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 0
+    height: 0

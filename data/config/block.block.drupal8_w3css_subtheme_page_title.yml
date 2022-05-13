@@ -1,0 +1,26 @@
+uuid: f6507932-2a52-469e-9db3-8c2f39a8ac66
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: drupal8_w3css_subtheme_page_title
+theme: drupal8_w3css_subtheme
+region: page_title
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/contact\r\n/store"

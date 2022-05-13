@@ -1,4 +1,4 @@
-uuid: 5de2b34f-2332-4035-9ba4-4c07d5d4bbeb
+uuid: 221c2c71-f070-4a30-84cb-55d0ca06b843
 langcode: en
 status: true
 dependencies:
@@ -15,13 +15,13 @@ theme: bartik
 region: primary_menu
 weight: 0
 provider: null
-plugin: "system_menu_block:main"
+plugin: 'system_menu_block:main'
 settings:
-  id: "system_menu_block:main"
-  label: "Main navigation"
-  label_display: "0"
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
   provider: system
   level: 1
   depth: 1
   expand_all_items: false
-visibility: {}
+visibility: {  }

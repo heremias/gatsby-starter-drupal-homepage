@@ -1,0 +1,26 @@
+uuid: c47c4566-a8b4-4070-8c44-0800b8c99f86
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - system
+  theme:
+    - stark
+id: stark_cart
+theme: stark
+region: header
+weight: -9
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "</front>\r\n/365\r\n/artist/*"

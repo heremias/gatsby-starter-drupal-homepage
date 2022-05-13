@@ -1,0 +1,21 @@
+uuid: 216c093b-7486-4e0e-ad25-249a813ff318
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_style
+    - node.type.entry
+  module:
+    - field_image_style
+id: node.entry.field_image_style
+field_name: field_image_style
+entity_type: node
+bundle: entry
+label: 'Image Style'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: image_style

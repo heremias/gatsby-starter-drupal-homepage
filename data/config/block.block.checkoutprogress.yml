@@ -1,0 +1,20 @@
+uuid: da9d91ea-0a2a-4d37-9e97-04acbe5d6e51
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_checkout
+  theme:
+    - drupal8_w3css_subtheme
+id: checkoutprogress
+theme: drupal8_w3css_subtheme
+region: sidebar_second
+weight: -10
+provider: null
+plugin: commerce_checkout_progress
+settings:
+  id: commerce_checkout_progress
+  label: 'Checkout progress'
+  label_display: visible
+  provider: commerce_checkout
+visibility: {  }

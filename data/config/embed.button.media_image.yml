@@ -1,0 +1,42 @@
+uuid: ace1b190-5c7f-433a-a4e0-447c3cf5b522
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.full
+    - core.entity_view_mode.media.landscape
+    - core.entity_view_mode.media.media_library
+    - core.entity_view_mode.media.portrait
+    - core.entity_view_mode.media.slick
+    - core.entity_view_mode.media.square
+    - core.entity_view_mode.media.wide
+    - media.type.image
+    - media.type.remote_video
+  module:
+    - blazy
+    - ckeditor_support
+    - entity_embed
+    - media
+label: Media
+id: media_image
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+    - remote_video
+  display_plugins:
+    - media_image_display
+    - 'entity_reference:media_thumbnail'
+    - 'entity_reference:blazy_media'
+    - 'view_mode:media.full'
+    - 'view_mode:media.landscape'
+    - 'view_mode:media.media_library'
+    - 'view_mode:media.portrait'
+    - 'view_mode:media.slick'
+    - 'view_mode:media.square'
+    - 'view_mode:media.wide'
+  entity_browser: ''
+  entity_browser_settings: {  }
+icon: null
+icon_uuid: null

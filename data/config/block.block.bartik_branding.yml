@@ -1,4 +1,4 @@
-uuid: 6756d42d-1b21-4233-bf79-6fe1cd5845df
+uuid: fb76367f-25f8-4494-9995-74ad996d4059
 langcode: en
 status: true
 dependencies:
@@ -16,10 +16,10 @@ provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: "Site branding"
-  label_display: "0"
+  label: 'Site branding'
+  label_display: '0'
   provider: system
   use_site_logo: true
   use_site_name: true
   use_site_slogan: true
-visibility: {}
+visibility: {  }

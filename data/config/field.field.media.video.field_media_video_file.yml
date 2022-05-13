@@ -1,4 +1,4 @@
-uuid: eade5df2-98e4-46c9-9888-0cc099893b99
+uuid: 74001c86-41f4-4fcc-b21d-e9519f52ce9e
 langcode: en
 status: true
 dependencies:
@@ -13,17 +13,17 @@ id: media.video.field_media_video_file
 field_name: field_media_video_file
 entity_type: media
 bundle: video
-label: "Video file"
-description: ""
+label: 'Video file'
+description: ''
 required: true
 translatable: true
-default_value: {}
-default_value_callback: ""
+default_value: {  }
+default_value_callback: ''
 settings:
-  handler: "default:file"
-  handler_settings: {}
-  file_directory: "[date:custom:Y]-[date:custom:m]"
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: mp4
-  max_filesize: ""
+  max_filesize: ''
   description_field: false
 field_type: file

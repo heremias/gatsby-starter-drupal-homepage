@@ -1,0 +1,14 @@
+uuid: bc3a1923-13c6-4afe-9694-9c97c45736b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.store
+  module:
+    - user
+id: user_remove_role_action.store
+label: 'Remove the Store role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: store

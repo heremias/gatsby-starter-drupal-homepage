@@ -1,4 +1,4 @@
-uuid: 786bb0d1-a84c-4815-b368-876434794f6b
+uuid: b6006923-5a0b-4f39-986e-bb658864da79
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: nh83qNNrmWE-CDdHz2MdFOAk60T9mzv3R-MaKfZR2jw
 id: media_publish_action
-label: "Publish media"
+label: 'Publish media'
 type: media
-plugin: "entity:publish_action:media"
-configuration: {}
+plugin: 'entity:publish_action:media'
+configuration: {  }

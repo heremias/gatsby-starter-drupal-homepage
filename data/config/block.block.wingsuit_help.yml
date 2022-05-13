@@ -1,0 +1,22 @@
+uuid: 47eb48a1-00d0-443f-b376-a5f3a5991c8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - wingsuit
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: wingsuit_help
+theme: wingsuit
+region: primary_menu
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

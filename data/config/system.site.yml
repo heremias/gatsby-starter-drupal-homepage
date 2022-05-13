@@ -1,14 +1,15 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: d74e0c35-da98-4767-bcc9-f21c501649a8
-name: "Home Page Starter"
-mail: developer-experience-squad@gatsbyjs.com
-slogan: ""
+uuid: ca04d192-5a95-40c1-be96-7fdc5d32279c
+name: OBMG
+mail: jeremy.scott.evans@gmail.com
+slogan: 'Arts, Crafts, Materials, Supplies'
 page:
-  403: ""
-  404: ""
-  front: /node
+  403: ''
+  404: ''
+  front: /node/3
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
+mail_notification: jeremy.scott.evans@gmail.com

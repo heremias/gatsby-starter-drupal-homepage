@@ -1,0 +1,22 @@
+uuid: 930b84b8-0e97-4b6c-b44b-1faa4232674f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - guswds
+_core:
+  default_config_hash: Ccwyurdust12h947NQ3j_h3YGmaP_iN-jUt_sn6uyEM
+id: guswds_powered
+theme: guswds
+region: disabled
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

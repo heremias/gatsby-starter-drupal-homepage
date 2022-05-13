@@ -1,4 +1,4 @@
-uuid: 48ae16b2-27d3-441f-b23f-03572615d9e3
+uuid: 9f0f7ced-eae4-4ba4-8f9d-c317ab14441b
 langcode: en
 status: true
 dependencies:
@@ -13,46 +13,100 @@ editor: ckeditor
 settings:
   toolbar:
     rows:
-      - - name: Formatting
+      -
+        -
+          name: Formatting
           items:
             - Bold
             - Italic
             - Strike
             - Superscript
             - Subscript
-            - "-"
+            - '-'
             - RemoveFormat
-        - name: Linking
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+            - Outdent
+            - Indent
+        -
+          name: Linking
           items:
             - DrupalLink
             - DrupalUnlink
-        - name: Lists
+        -
+          name: Lists
           items:
             - BulletedList
             - NumberedList
-        - name: Media
+        -
+          name: Media
           items:
             - Blockquote
+            - DrupalMediaLibrary
             - DrupalImage
             - Table
             - HorizontalRule
-        - name: "Block Formatting"
+            - node
+        -
+          name: 'Block Formatting'
           items:
+            - Styles
             - Format
-        - name: Tools
+            - AddLayout
+        -
+          name: Tools
           items:
             - ShowBlocks
             - Source
+            - insert_view_adv
+        -
+          name: Embed
+          items:
+            - flickr_ckeditor_button
+            - crop
+            - media_image
+            - Instagram_ckeditor_button
+            - Twitter_ckeditor_button
+            - Fb_ckeditor_button
   plugins:
     language:
       language_list: un
     stylescombo:
-      styles: ""
+      styles: ''
+    ckeditor_layouts:
+      enabled_layouts:
+        barrio_cardbasic: barrio_cardbasic
+        barrio_cardheaderfooter: barrio_cardheaderfooter
+        barrio_cardhorizontal: barrio_cardhorizontal
+        barrio_card3stack: barrio_card3stack
+        barrio_cardtopimage: barrio_cardtopimage
+        barrio_cardimageoverlay: barrio_cardimageoverlay
+        barrio_col2-3-9: barrio_col2-3-9
+        barrio_col2-9-3: barrio_col2-9-3
+        barrio_col2-equal: barrio_col2-equal
+        barrio_col3-equal: barrio_col3-equal
+        barrio_col4-equal: barrio_col4-equal
+        barrio_media: barrio_media
+        layout_onecol: layout_onecol
+        layout_twocol: layout_twocol
+        layout_twocol_section: layout_twocol_section
+        layout_twocol_bricks: layout_twocol_bricks
+        layout_threecol_section: layout_threecol_section
+        layout_threecol_25_50_25: layout_threecol_25_50_25
+        layout_threecol_33_34_33: layout_threecol_33_34_33
+        layout_fourcol_section: layout_fourcol_section
+        layout_builder_blank: 0
+    insert_view_adv:
+      enable_live_preview: true
+    N1EDEco:
+      enableN1EDEcoSystem: 'true'
 image_upload:
   status: true
   scheme: public
   directory: inline-images
-  max_size: ""
+  max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 1200
+    height: 900

@@ -1,0 +1,23 @@
+uuid: e88681a1-1f6f-4bb3-84fb-d5f3c3773aca
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - wingsuit
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: wingsuit_search
+theme: wingsuit
+region: primary_menu
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

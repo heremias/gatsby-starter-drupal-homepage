@@ -1,0 +1,28 @@
+uuid: f993c70b-862f-45c0-b346-1cbdbe4146d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+    - system
+  theme:
+    - stark
+_core:
+  default_config_hash: sGBJngnPd7XTlRRI8evMMvByzIOLR2SA-iWeh_TVkYQ
+id: stark_book_navigation
+theme: stark
+region: header
+weight: -5
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  label_display: visible
+  provider: book
+  block_mode: 'book pages'
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

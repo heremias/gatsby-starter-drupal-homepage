@@ -1,0 +1,22 @@
+uuid: d8e23b5c-7db4-46c9-a67f-e3b5462181d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - guswds
+_core:
+  default_config_hash: VnSpuYNZ-FPABMmkbzBSa8i3BL2hm7rQM8hI8Bmp0xM
+id: guswds_content
+theme: guswds
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

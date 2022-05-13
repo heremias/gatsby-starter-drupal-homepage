@@ -1,0 +1,30 @@
+uuid: eac0f7f2-a891-4f1d-b612-cffd44391d3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_image_style
+    - node
+id: node.field_image_style
+field_name: field_image_style
+entity_type: node
+type: image_style
+settings:
+  allowed_values:
+    -
+      value: large
+      label: large
+    -
+      value: medium
+      label: medium
+    -
+      value: test
+      label: test
+  sort: 0
+module: field_image_style
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,45 @@
+uuid: 64445d31-0141-4442-becc-17b5299400d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.products.body
+    - field.field.node.products.field_cost
+    - field.field.node.products.field_count
+    - field.field.node.products.field_product_media
+    - field.field.node.products.field_tags
+    - field.field.node.products.field_type
+    - field.field.node.products.field_weight
+    - field.field.node.products.layout_builder__layout
+    - node.type.products
+  module:
+    - text
+    - user
+id: node.products.teaser
+targetEntityType: node
+bundle: products
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_cost: true
+  field_count: true
+  field_product_media: true
+  field_tags: true
+  field_type: true
+  field_weight: true
+  gatsby_iframe_preview: true
+  layout_builder__layout: true

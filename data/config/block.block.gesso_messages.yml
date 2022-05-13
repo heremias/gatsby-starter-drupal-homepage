@@ -1,0 +1,22 @@
+uuid: 9e21fc2c-1618-4419-9948-b91b1f251af0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gesso
+_core:
+  default_config_hash: iCVXXZL_LicpCsu0wD1VJCu3VsXV0HqRLPkXsVyAQyM
+id: gesso_messages
+theme: gesso
+region: status
+weight: -1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

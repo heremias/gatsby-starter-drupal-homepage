@@ -1,0 +1,20 @@
+uuid: 15912990-bb07-41bc-a360-c49a74f7257d
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_checkout
+  theme:
+    - stark
+id: stark_checkoutprogress
+theme: stark
+region: header
+weight: -10
+provider: null
+plugin: commerce_checkout_progress
+settings:
+  id: commerce_checkout_progress
+  label: 'Checkout progress'
+  label_display: visible
+  provider: commerce_checkout
+visibility: {  }

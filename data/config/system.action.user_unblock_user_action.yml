@@ -1,4 +1,4 @@
-uuid: 9b09ae89-1c32-48bb-b946-3d89429da0be
+uuid: 061c66ca-725e-429d-a756-644523e41219
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: SPsUXsR3Rc8d1y3gewzaAKWa1ncea_ywXX3f7LTn7k0
 id: user_unblock_user_action
-label: "Unblock the selected user(s)"
+label: 'Unblock the selected user(s)'
 type: user
 plugin: user_unblock_user_action
-configuration: {}
+configuration: {  }

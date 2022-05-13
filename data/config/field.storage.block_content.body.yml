@@ -1,4 +1,4 @@
-uuid: 3d5ff09d-6af4-4347-b838-37595597dd10
+uuid: d44b29e1-626d-409d-a0a6-bb3fcb95cfb9
 langcode: en
 status: true
 dependencies:
@@ -11,11 +11,11 @@ id: block_content.body
 field_name: body
 entity_type: block_content
 type: text_with_summary
-settings: {}
+settings: {  }
 module: text
 locked: false
 cardinality: 1
 translatable: true
-indexes: {}
+indexes: {  }
 persist_with_no_fields: true
 custom_storage: false

@@ -1,0 +1,12 @@
+uuid: 98ae81b0-443a-4b3d-9933-c24735417ef2
+langcode: en
+status: true
+dependencies:
+  module:
+    - recurring_events
+_core:
+  default_config_hash: ACEZJZgLGd5uEPKxI_r1I6XmjWtbyxxqjGHGxG_Lnkw
+id: eventinstance.list
+label: List
+targetEntityType: eventinstance
+cache: true

@@ -1,4 +1,4 @@
-uuid: a17735c5-c552-4966-9034-0d747d48a9ac
+uuid: df4fbd08-da48-4835-b841-d3dab0cb7b24
 langcode: en
 status: true
 dependencies:
@@ -15,13 +15,13 @@ theme: bartik
 region: sidebar_first
 weight: 0
 provider: null
-plugin: "system_menu_block:tools"
+plugin: 'system_menu_block:tools'
 settings:
-  id: "system_menu_block:tools"
+  id: 'system_menu_block:tools'
   label: Tools
   label_display: visible
   provider: system
   level: 1
   depth: 0
   expand_all_items: false
-visibility: {}
+visibility: {  }

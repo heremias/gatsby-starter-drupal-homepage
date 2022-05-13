@@ -1,4 +1,4 @@
-uuid: 453926b1-e45b-45dd-9fe1-1df9b9b494d7
+uuid: 660ba108-ed4d-418f-82d3-bfd2f92dc822
 langcode: en
 status: true
 dependencies:
@@ -11,11 +11,11 @@ id: node.body
 field_name: body
 entity_type: node
 type: text_with_summary
-settings: {}
+settings: {  }
 module: text
 locked: false
 cardinality: 1
 translatable: true
-indexes: {}
+indexes: {  }
 persist_with_no_fields: true
 custom_storage: false

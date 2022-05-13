@@ -1,0 +1,26 @@
+uuid: a31af400-1107-4305-b1ec-1869e9219d6b
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - system
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_cart
+theme: bootstrap_barrio
+region: sidebar_second
+weight: -9
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "</front>\r\n/365\r\n/artist/*"

@@ -1,0 +1,22 @@
+uuid: 98261eb8-0245-4f67-bb01-6b838623f491
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - guswds
+_core:
+  default_config_hash: zTt8qokRY9-1My2EPt2tUf1z5LOEa1gtIA7VE0IaclA
+id: guswds_breadcrumbs
+theme: guswds
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,13 +1,12 @@
-uuid: 341b2d28-847a-4676-ac59-04097e4c37d5
+uuid: cf7d6814-3f59-484d-8583-56a0ed153dc5
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
-    - image.style.large
     - media.type.image
   module:
-    - image
+    - field_image_style
 _core:
   default_config_hash: whJrNezqUJ7Qhg7raMQj2Hz9JPiWxijezhWIEN9BVVk
 id: media.image.default
@@ -16,12 +15,13 @@ bundle: image
 mode: default
 content:
   field_media_image:
-    type: image
+    type: image_style_image_formatter
     label: visually_hidden
     settings:
-      image_link: ""
-      image_style: large
-    third_party_settings: {}
+      field_image_style: ''
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
     weight: 1
     region: content
 hidden:

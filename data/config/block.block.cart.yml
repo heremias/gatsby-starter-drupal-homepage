@@ -1,0 +1,26 @@
+uuid: 49b8cdc1-4a9a-4e79-8a0a-d3ce025a3ec7
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+id: cart
+theme: drupal8_w3css_subtheme
+region: sidebar_second
+weight: -9
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "</front>\r\n/365\r\n/artist/*"

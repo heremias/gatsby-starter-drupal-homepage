@@ -1,26 +1,30 @@
-uuid: 060804f8-3977-4e8e-a631-b5b63fb36e96
+uuid: 2afa1f99-e4b8-4601-b7d9-cd648a56e4df
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.restricted_html
   module:
-    - comment
+    - commerce_checkout
+    - commerce_product
     - contact
     - filter
     - media
+    - profile
     - search
     - system
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
 id: anonymous
-label: "Anonymous user"
+label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
-  - "access comments"
-  - "access content"
-  - "access site-wide contact form"
-  - "search content"
-  - "use text format restricted_html"
-  - "view media"
+  - 'access checkout'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view any profile'
+  - 'view commerce_product'
+  - 'view media'

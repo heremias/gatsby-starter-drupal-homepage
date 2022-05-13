@@ -1,0 +1,20 @@
+uuid: 83ce1125-451c-4040-a872-a9d9d3913f33
+langcode: en
+status: true
+dependencies:
+  theme:
+    - guswds
+_core:
+  default_config_hash: GCb0GaIQ4WO16iCX8y09nQRWtv37ElmgvC0zwNQsO6Q
+id: guswds_page_title
+theme: guswds
+region: disabled
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

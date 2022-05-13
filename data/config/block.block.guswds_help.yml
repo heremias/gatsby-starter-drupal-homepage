@@ -1,0 +1,22 @@
+uuid: f7b656a9-85ef-422e-8d3a-20578e2542ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - guswds
+_core:
+  default_config_hash: bx2cuBRyI7j62SyvP07pvv57THtwrYXWA1TBpP-D6dY
+id: guswds_help
+theme: guswds
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: f410778a-1583-4d7c-877a-b0f34eb166e8
+langcode: en
+status: true
+dependencies: {  }
+id: main_nav
+block_id: 'system_menu_block:main'
+category: artist
+label: 'main nav'
+image_path: ''
+image_alt: ''
+weight: -100

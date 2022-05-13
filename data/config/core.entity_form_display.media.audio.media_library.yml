@@ -1,4 +1,4 @@
-uuid: 0c84be69-5edb-49be-9d4f-b84fd5322d1f
+uuid: 88d157e9-fd70-46f3-89a1-071110e19438
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,21 @@ dependencies:
     - core.entity_form_mode.media.media_library
     - field.field.media.audio.field_media_audio_file
     - media.type.audio
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: 28vwMIYtvyjPcD4RyciZXIztxtZgmuWRCNgYemr_SZE
 id: media.audio.media_library
 targetEntityType: media
 bundle: audio
 mode: media_library
-content: {}
+content: {  }
 hidden:
   created: true
   field_media_audio_file: true

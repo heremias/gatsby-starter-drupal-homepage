@@ -1,4 +1,4 @@
-uuid: 50c7cc26-9df1-4791-91eb-b0f212a98d76
+uuid: 65b5937a-bb6d-4cb1-afd8-2a8b6381d6fa
 langcode: en
 status: true
 dependencies:
@@ -19,8 +19,8 @@ settings:
   uri_scheme: public
   default_image:
     uuid: null
-    alt: ""
-    title: ""
+    alt: ''
+    title: ''
     width: null
     height: null
 module: image

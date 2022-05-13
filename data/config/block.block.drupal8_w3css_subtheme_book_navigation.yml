@@ -1,0 +1,28 @@
+uuid: a68bb710-cf0a-496f-93c4-f68ff24266c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+_core:
+  default_config_hash: sGBJngnPd7XTlRRI8evMMvByzIOLR2SA-iWeh_TVkYQ
+id: drupal8_w3css_subtheme_book_navigation
+theme: drupal8_w3css_subtheme
+region: top_first
+weight: -5
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  label_display: visible
+  provider: book
+  block_mode: 'book pages'
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

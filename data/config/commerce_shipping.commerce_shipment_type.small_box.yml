@@ -1,0 +1,10 @@
+uuid: 8956368f-146b-4332-9186-241620447f34
+langcode: en
+status: true
+dependencies: {  }
+id: small_box
+label: 'Small Box'
+traits: {  }
+profileType: customer
+sendConfirmation: true
+confirmationBcc: diana.dembeck33@gmail.com

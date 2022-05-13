@@ -1,0 +1,29 @@
+uuid: 62142baa-c3d2-45de-b057-84b16388f697
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.page
+  module:
+    - text
+_core:
+  default_config_hash: KgVkxLl_K3E3lvN6CEoWQIDT0V8J4Mv-fVYrAIc7-FE
+id: node.page.body
+field_name: body
+entity_type: node
+bundle: page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: "<div class=\"container-fluid\" data-bootstrap-contains=\"containers\">\r\n<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"col-12\">\r\n<p>&nbsp;</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div><script src=\"//cdn.public.n1ed.com/X5WXDFLT/widgets.js\"></script>"
+    summary: ''
+    format: full_html
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

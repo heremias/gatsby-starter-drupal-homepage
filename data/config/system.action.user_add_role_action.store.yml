@@ -1,0 +1,14 @@
+uuid: 0d1000a6-9538-4891-95c6-fc65d1b41ed9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.store
+  module:
+    - user
+id: user_add_role_action.store
+label: 'Add the Store role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: store

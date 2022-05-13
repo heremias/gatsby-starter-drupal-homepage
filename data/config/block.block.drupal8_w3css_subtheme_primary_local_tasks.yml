@@ -1,0 +1,22 @@
+uuid: 5f804818-4ffc-40aa-91f2-5a19ff74cf05
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal8_w3css_subtheme
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: drupal8_w3css_subtheme_primary_local_tasks
+theme: drupal8_w3css_subtheme
+region: highlighted
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

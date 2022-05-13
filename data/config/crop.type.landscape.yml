@@ -1,0 +1,12 @@
+uuid: b7c02f04-6d4d-4c96-abe2-4184c3b9a9fc
+langcode: en
+status: true
+dependencies: {  }
+label: Landscape
+id: landscape
+description: ''
+aspect_ratio: '4:3'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

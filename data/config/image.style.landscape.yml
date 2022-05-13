@@ -1,0 +1,18 @@
+uuid: 643250ac-2f82-4325-9285-120bb83558f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.landscape
+  module:
+    - crop
+name: landscape
+label: Landscape
+effects:
+  be40135c-adba-46c8-a126-d3f587447d2f:
+    uuid: be40135c-adba-46c8-a126-d3f587447d2f
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: landscape
+      automatic_crop_provider: null

@@ -1,0 +1,25 @@
+uuid: 941463b5-a3cc-4d51-8be6-010e2aa4209f
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_auth
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+id: socialauthlogin
+theme: drupal8_w3css_subtheme
+region: content
+weight: -7
+provider: null
+plugin: social_auth_login
+settings:
+  id: social_auth_login
+  label: 'Social Auth Login'
+  label_display: '0'
+  provider: social_auth
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login

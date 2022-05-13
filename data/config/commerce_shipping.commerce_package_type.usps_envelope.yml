@@ -1,0 +1,14 @@
+uuid: 1d6743b8-94ed-488b-a5f9-e3f9d00058b6
+langcode: en
+status: true
+dependencies: {  }
+id: usps_envelope
+label: 'USPS Envelope'
+dimensions:
+  length: '15'
+  width: '.1'
+  height: '9.5'
+  unit: m
+weight:
+  number: '2'
+  unit: oz

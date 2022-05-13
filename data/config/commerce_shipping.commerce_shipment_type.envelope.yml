@@ -1,0 +1,10 @@
+uuid: 7c4ce3d9-6212-4541-8b04-5cc345d8658e
+langcode: en
+status: true
+dependencies: {  }
+id: envelope
+label: Envelope
+traits: {  }
+profileType: customer
+sendConfirmation: true
+confirmationBcc: diana.dembeck33@gmail.com

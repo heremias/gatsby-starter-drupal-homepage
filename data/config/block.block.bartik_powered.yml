@@ -1,4 +1,4 @@
-uuid: 2dd53fd2-c49c-4ae3-996b-5e7a8ddd143c
+uuid: 8833750f-0d9c-4436-b8ee-63641b3466ac
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_powered_by_block
 settings:
   id: system_powered_by_block
-  label: "Powered by Drupal"
-  label_display: "0"
+  label: 'Powered by Drupal'
+  label_display: '0'
   provider: system
-visibility: {}
+visibility: {  }

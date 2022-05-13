@@ -1,0 +1,25 @@
+uuid: 094337d0-9ee8-4c37-ab75-635513c0e293
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_auth
+    - system
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_socialauthlogin
+theme: bootstrap_barrio
+region: content
+weight: -7
+provider: null
+plugin: social_auth_login
+settings:
+  id: social_auth_login
+  label: 'Social Auth Login'
+  label_display: '0'
+  provider: social_auth
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login

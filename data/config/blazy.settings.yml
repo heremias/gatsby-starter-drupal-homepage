@@ -1,0 +1,28 @@
+_core:
+  default_config_hash: AKaOOvJLdUkliE4Pd3O_SJznkKMkdNbVL0Gqmry1tXs
+admin_css: true
+nojs:
+  lazy: lazy
+  polyfill: polyfill
+  classlist: classlist
+  promise: promise
+  raf: raf
+  webp: webp
+fx: blur
+noscript: true
+one_pixel: true
+placeholder: ''
+unstyled_extensions: ''
+responsive_image: true
+blazy:
+  loadInvisible: false
+  offset: 100
+  saveViewportOffsetDelay: 50
+  validateDelay: 25
+  container: ''
+io:
+  unblazy: false
+  rootMargin: 0px
+  threshold: '0'
+  disconnect: false
+extras: {  }

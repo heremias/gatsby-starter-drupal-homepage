@@ -1,0 +1,61 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://oblogo.png'
+favicon:
+  use_default: 1
+website_width: none
+equal_width: 1
+layout_user_login_custom: 1
+full_opacity_onscroll: 1
+sitename_animation: animate-name-01
+pagetitle_animation: animate-title-02
+border_animation: 1
+d8w3css_font_awesome_4: 0
+d8w3css_google_font_local: 0
+d8w3css_site_gf: d8w3css-domine
+d8w3css_site_gfh: d8w3css-bree-serif
+d8w3css_site_gfs: none
+current_theme: w3-theme-00023
+color_page_wrapper: ''
+color_header: ''
+color_primary_menu: ''
+color_welcome_text: ''
+color_highlighted: ''
+color_top_container: ''
+color_top_first: ''
+color_top_second: ''
+color_top_third: ''
+color_page_title: ''
+color_main: ''
+color_breadcrumb: ''
+color_sidebar_first: ''
+color_content: ''
+color_sidebar_second: ''
+color_bottom_container: ''
+color_bottom_first: ''
+color_bottom_second: ''
+color_bottom_third: ''
+color_bottom_forth: ''
+color_footer_container: ''
+color_footer_first: ''
+color_footer_second: ''
+color_footer_third: ''
+color_footer_menu: ''
+color_copyright: ''
+show_social_icon: 1
+facebook_url: ''
+twitter_url: ''
+pinterest_url: ''
+google_plus_url: ''
+linkedin_url: ''
+instagram_url: 'https://www.instagram.com/obmg.one/'
+youtube_url: ''
+drupal_url: ''
+rss_url: ''
+copyright_text: ''
+show_credit_link: 0

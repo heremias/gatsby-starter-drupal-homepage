@@ -1,4 +1,4 @@
-uuid: 2b419ff1-449e-43fe-bef4-addd1b155b72
+uuid: 65d8dd90-c802-4235-8bc1-583d148d511c
 langcode: en
 status: true
 dependencies:
@@ -11,4 +11,4 @@ label: Users
 path: user
 weight: 0
 plugin: user_search
-configuration: {}
+configuration: {  }

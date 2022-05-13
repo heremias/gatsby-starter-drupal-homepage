@@ -1,0 +1,28 @@
+uuid: 2b90e022-bbdc-4c5c-b85d-712aaa21a84f
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+_core:
+  default_config_hash: sGBJngnPd7XTlRRI8evMMvByzIOLR2SA-iWeh_TVkYQ
+id: bootstrap_barrio_subtheme_book_navigation
+theme: bootstrap_barrio_subtheme
+region: secondary_menu
+weight: -9
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  label_display: visible
+  provider: book
+  block_mode: 'book pages'
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

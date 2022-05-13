@@ -1,0 +1,11 @@
+uuid: d2f479c9-9587-49b6-8302-0e77c5909ee1
+langcode: en
+status: true
+dependencies: {  }
+id: testbasic
+block_id: 'inline_block:basic'
+category: artist
+label: testbasic
+image_path: ''
+image_alt: ''
+weight: -100

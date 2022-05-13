@@ -1,4 +1,4 @@
-uuid: edede97c-7da2-4939-a57a-75cee9c70511
+uuid: e64d20c5-8155-47ab-8185-69cd48ab09bb
 langcode: en
 status: true
 dependencies:
@@ -20,7 +20,7 @@ content:
     settings:
       max_width: 0
       max_height: 0
-    third_party_settings: {}
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

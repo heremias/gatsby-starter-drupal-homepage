@@ -1,0 +1,22 @@
+uuid: 2eef227e-34de-4d20-9738-01a5fbb29fc8
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bootstrap_storybook
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: bootstrap_storybook_help
+theme: bootstrap_storybook
+region: navbar_branding
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

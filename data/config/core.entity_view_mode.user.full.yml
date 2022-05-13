@@ -1,4 +1,4 @@
-uuid: 24c2b786-2174-446c-acbe-f40c2401de1f
+uuid: efd8b808-9263-4b4d-830e-0f14970cfb87
 langcode: en
 status: false
 dependencies:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
 id: user.full
-label: "User account"
+label: 'User account'
 targetEntityType: user
 cache: true

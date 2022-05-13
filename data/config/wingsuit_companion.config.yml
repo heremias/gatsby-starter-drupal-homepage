@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: 6XhiVtfK4sJ3SeGplYYE-DUcklYz8pcFwWTt0l1r6GQ
+dist_path: /../../dist/app-drupal
+only_own_layout: false
+auto_fill_link_url: false

@@ -1,0 +1,12 @@
+uuid: 79dc8e5b-2be4-466f-a8ee-7c715befccc2
+langcode: en
+status: true
+dependencies: {  }
+label: ThreeTwo
+id: threetwo
+description: ''
+aspect_ratio: '3:2'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

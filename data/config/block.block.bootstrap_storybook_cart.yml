@@ -1,0 +1,26 @@
+uuid: 3c8f56f6-d377-447a-8be5-4aa39d6791a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - system
+  theme:
+    - bootstrap_storybook
+id: bootstrap_storybook_cart
+theme: bootstrap_storybook
+region: navbar_branding
+weight: -9
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "</front>\r\n/365\r\n/artist/*"

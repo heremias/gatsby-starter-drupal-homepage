@@ -1,4 +1,4 @@
-uuid: ce251063-70c3-4a57-9684-816d1cf89079
+uuid: 2b72f7ec-19c2-4393-b64c-add8aad36452
 langcode: en
 status: true
 dependencies:
@@ -12,4 +12,4 @@ path: node
 weight: -10
 plugin: node_search
 configuration:
-  rankings: {}
+  rankings: {  }

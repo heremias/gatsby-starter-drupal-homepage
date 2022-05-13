@@ -1,4 +1,4 @@
-uuid: a39feb61-0952-433b-999c-bec0461efc5b
+uuid: 7fb563ca-810d-464c-9632-86f412eaf083
 langcode: en
 status: true
 dependencies:
@@ -15,8 +15,8 @@ plugin: local_tasks_block
 settings:
   id: local_tasks_block
   label: Tabs
-  label_display: "0"
+  label_display: '0'
   provider: core
   primary: true
   secondary: true
-visibility: {}
+visibility: {  }

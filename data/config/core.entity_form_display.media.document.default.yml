@@ -1,4 +1,4 @@
-uuid: 341a6115-0288-420c-9f34-6596302ca231
+uuid: 41dc4b99-c6e4-4d1c-926c-9d6009132eb1
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,15 @@ dependencies:
     - field.field.media.document.field_media_document
     - media.type.document
   module:
+    - field_layout
     - file
+    - layout_discovery
     - path
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: aewrRkePgJzdD5kPOq8JeMcKHs6yat49nE7ZeCQzQZg
 id: media.document.default
@@ -19,28 +26,28 @@ content:
     type: datetime_timestamp
     weight: 10
     region: content
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
   field_media_document:
     type: file_generic
     weight: 0
     region: content
     settings:
       progress_indicator: throbber
-    third_party_settings: {}
+    third_party_settings: {  }
   path:
     type: path
     weight: 30
     region: content
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
   status:
     type: boolean_checkbox
     weight: 100
     region: content
     settings:
       display_label: true
-    third_party_settings: {}
+    third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
     weight: 5
@@ -49,7 +56,7 @@ content:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
-      placeholder: ""
-    third_party_settings: {}
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
   name: true
